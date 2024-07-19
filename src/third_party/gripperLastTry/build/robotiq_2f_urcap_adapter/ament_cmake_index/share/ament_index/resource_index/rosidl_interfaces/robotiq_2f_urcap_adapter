@@ -1,0 +1,6 @@
+action/GripperCommand.action
+action/GripperCommand.idl
+action/MoveGripper.action
+action/MoveGripper.idl
+msg/GripperCommand.idl
+msg/GripperCommand.msg

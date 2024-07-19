@@ -1,0 +1,2 @@
+Invoking command in '/home/samer/ridgeback/build/ridgeback_description': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake /home/samer/ridgeback/src/ridgeback_description -DCMAKE_INSTALL_PREFIX=/home/samer/ridgeback/install/ridgeback_description
+Invoked command in '/home/samer/ridgeback/build/ridgeback_description' returned '1': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake /home/samer/ridgeback/src/ridgeback_description -DCMAKE_INSTALL_PREFIX=/home/samer/ridgeback/install/ridgeback_description

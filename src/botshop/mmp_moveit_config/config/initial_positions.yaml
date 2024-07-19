@@ -1,0 +1,10 @@
+# Default initial positions for ridgeback's ros2_control fake system
+
+initial_positions:
+  gripper_finger_joint: 0
+  ur5e_elbow_joint: 1.4805
+  ur5e_shoulder_lift_joint: -1.6033
+  ur5e_shoulder_pan_joint: 1.5742
+  ur5e_wrist_1_joint: 3.221
+  ur5e_wrist_2_joint: -1.5744
+  ur5e_wrist_3_joint: 3.14

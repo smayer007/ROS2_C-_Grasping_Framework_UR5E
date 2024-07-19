@@ -1,0 +1,9 @@
+/home/samer/ridgeback/build/ridgeback_description/CMakeFiles/uninstall.dir
+/home/samer/ridgeback/build/ridgeback_description/CMakeFiles/ridgeback_description_uninstall.dir
+/home/samer/ridgeback/build/ridgeback_description/CMakeFiles/test.dir
+/home/samer/ridgeback/build/ridgeback_description/CMakeFiles/edit_cache.dir
+/home/samer/ridgeback/build/ridgeback_description/CMakeFiles/rebuild_cache.dir
+/home/samer/ridgeback/build/ridgeback_description/CMakeFiles/list_install_components.dir
+/home/samer/ridgeback/build/ridgeback_description/CMakeFiles/install.dir
+/home/samer/ridgeback/build/ridgeback_description/CMakeFiles/install/local.dir
+/home/samer/ridgeback/build/ridgeback_description/CMakeFiles/install/strip.dir

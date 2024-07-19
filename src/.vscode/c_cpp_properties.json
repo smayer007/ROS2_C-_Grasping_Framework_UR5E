@@ -1,0 +1,56 @@
+{
+  "configurations": [
+    {
+      "browse": {
+        "databaseFilename": "${default}",
+        "limitSymbolsToIncludedHeaders": false
+      },
+      "includePath": [
+        "/home/samer/moveit_ws_final/install/pilz_industrial_motion_planner_testutils/include/**",
+        "/home/samer/moveit_ws_final/install/pilz_industrial_motion_planner/include/**",
+        "/home/samer/moveit_ws_final/install/moveit_visual_tools/include/**",
+        "/home/samer/moveit_ws_final/install/moveit_task_constructor_visualization/include/**",
+        "/home/samer/moveit_ws_final/install/moveit_task_constructor_demo/include/**",
+        "/home/samer/moveit_ws_final/install/moveit_task_constructor_core/include/**",
+        "/home/samer/moveit_ws_final/install/moveit_ros_control_interface/include/**",
+        "/home/samer/moveit_ws_final/install/moveit_simple_controller_manager/include/**",
+        "/home/samer/moveit_ws_final/install/moveit_setup_assistant/include/**",
+        "/home/samer/moveit_ws_final/install/moveit_setup_srdf_plugins/include/**",
+        "/home/samer/moveit_ws_final/install/moveit_setup_core_plugins/include/**",
+        "/home/samer/moveit_ws_final/install/moveit_setup_controllers/include/**",
+        "/home/samer/moveit_ws_final/install/moveit_setup_app_plugins/include/**",
+        "/home/samer/moveit_ws_final/install/moveit_setup_framework/include/**",
+        "/home/samer/moveit_ws_final/install/moveit_servo/include/**",
+        "/home/samer/moveit_ws_final/install/moveit_ros_visualization/include/**",
+        "/home/samer/moveit_ws_final/install/moveit_hybrid_planning/include/**",
+        "/home/samer/moveit_ws_final/install/moveit_ros_planning_interface/include/**",
+        "/home/samer/moveit_ws_final/install/moveit_ros_benchmarks/include/**",
+        "/home/samer/moveit_ws_final/install/moveit_ros_warehouse/include/**",
+        "/home/samer/moveit_ws_final/install/moveit_ros_robot_interaction/include/**",
+        "/home/samer/moveit_ws_final/install/moveit_ros_perception/include/**",
+        "/home/samer/moveit_ws_final/install/moveit_ros_move_group/include/**",
+        "/home/samer/moveit_ws_final/install/moveit_planners_ompl/include/**",
+        "/home/samer/moveit_ws_final/install/moveit_ros_planning/include/**",
+        "/home/samer/moveit_ws_final/install/moveit_ros_occupancy_map_monitor/include/**",
+        "/home/samer/moveit_ws_final/install/moveit_kinematics/include/**",
+        "/home/samer/moveit_ws_final/install/chomp_motion_planner/include/**",
+        "/home/samer/moveit_ws_final/install/moveit_core/include/**",
+        "/home/samer/moveit_ws_final/install/srdfdom/include/**",
+        "/home/samer/moveit_ws_final/install/rviz_marker_tools/include/**",
+        "/home/samer/moveit_ws_final/install/rosparam_shortcuts/include/**",
+        "/home/samer/moveit_ws_final/install/moveit_task_constructor_msgs/include/**",
+        "/opt/ros/humble/include/**",
+        "/home/samer/bjehrabi/src/botshop/mmp_description/include/**",
+        "/home/samer/bjehrabi/src/third_party/realsense-ros/realsense2_camera/include/**",
+        "/home/samer/bjehrabi/src/third_party/ridgeback/src/ridgeback_description/include/**",
+        "/usr/include/**"
+      ],
+      "name": "ROS",
+      "intelliSenseMode": "gcc-x64",
+      "compilerPath": "/usr/bin/gcc",
+      "cStandard": "gnu11",
+      "cppStandard": "c++14"
+    }
+  ],
+  "version": 4
+}

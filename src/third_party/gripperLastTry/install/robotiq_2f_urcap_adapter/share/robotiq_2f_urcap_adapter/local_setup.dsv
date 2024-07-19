@@ -1,0 +1,4 @@
+source;share/robotiq_2f_urcap_adapter/environment/ament_prefix_path.sh
+source;share/robotiq_2f_urcap_adapter/environment/library_path.sh
+source;share/robotiq_2f_urcap_adapter/environment/path.sh
+source;share/robotiq_2f_urcap_adapter/environment/pythonpath.sh

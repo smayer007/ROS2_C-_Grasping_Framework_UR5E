@@ -1,0 +1,35 @@
+[0.029s] Invoking command in '/home/samer/ridgeback/build/ridgeback_description': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake /home/samer/ridgeback/src/ridgeback_description -DCMAKE_INSTALL_PREFIX=/home/samer/ridgeback/install/ridgeback_description
+[0.058s] -- The C compiler identification is GNU 11.4.0
+[0.088s] -- The CXX compiler identification is GNU 11.4.0
+[0.092s] -- Detecting C compiler ABI info
+[0.131s] -- Detecting C compiler ABI info - done
+[0.135s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.135s] -- Detecting C compile features
+[0.135s] -- Detecting C compile features - done
+[0.137s] -- Detecting CXX compiler ABI info
+[0.180s] -- Detecting CXX compiler ABI info - done
+[0.184s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.184s] -- Detecting CXX compile features
+[0.184s] -- Detecting CXX compile features - done
+[0.186s] -- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.362s] -- Found Python3: /home/samer/miniforge3/bin/python3 (found version "3.10.13") found components: Interpreter 
+[0.409s] -- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.420s] Traceback (most recent call last):
+[0.420s]   File "/opt/ros/humble/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 22, in <module>
+[0.420s]     from catkin_pkg.package import parse_package_string
+[0.420s] ModuleNotFoundError: No module named 'catkin_pkg'
+[0.422s] [31mCMake Error at /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:95 (message):
+[0.422s]   execute_process(/home/samer/miniforge3/bin/python3
+[0.422s]   /opt/ros/humble/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py
+[0.423s]   /home/samer/ridgeback/src/ridgeback_description/package.xml
+[0.423s]   /home/samer/ridgeback/build/ridgeback_description/ament_cmake_core/package.cmake)
+[0.423s]   returned error code 1
+[0.423s] Call Stack (most recent call first):
+[0.423s]   /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:49 (_ament_package_xml)
+[0.423s]   /opt/ros/humble/share/ament_lint_auto/cmake/ament_lint_auto_find_test_dependencies.cmake:31 (ament_package_xml)
+[0.423s]   CMakeLists.txt:26 (ament_lint_auto_find_test_dependencies)
+[0.423s] 
+[0.423s] [0m
+[0.423s] -- Configuring incomplete, errors occurred!
+[0.423s] See also "/home/samer/ridgeback/build/ridgeback_description/CMakeFiles/CMakeOutput.log".
+[0.425s] Invoked command in '/home/samer/ridgeback/build/ridgeback_description' returned '1': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake /home/samer/ridgeback/src/ridgeback_description -DCMAKE_INSTALL_PREFIX=/home/samer/ridgeback/install/ridgeback_description

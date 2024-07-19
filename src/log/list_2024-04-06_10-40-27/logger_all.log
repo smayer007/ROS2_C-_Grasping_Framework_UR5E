@@ -1,0 +1,236 @@
+[0.120s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'list', '-p', '--base-paths', '/home/samer/bjehrabi/src']
+[0.120s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='list', build_base='build', ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['/home/samer/bjehrabi/src'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], topological_order=False, names_only=False, paths_only=True, topological_graph=False, topological_graph_dot=False, topological_graph_density=False, topological_graph_legend=False, topological_graph_dot_cluster=False, topological_graph_dot_include_skipped=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x73798cdd91b0>, verb_extension=<colcon_package_information.verb.list.ListVerb object at 0x73798cf68c40>, main=<bound method ListVerb.main of <colcon_package_information.verb.list.ListVerb object at 0x73798cf68c40>>, mixin_verb=('list',))
+[0.247s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.247s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.247s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.247s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.247s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.247s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/samer/bjehrabi/src'
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(/home/samer/bjehrabi/src) by extensions ['ignore', 'ignore_ament_install']
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(/home/samer/bjehrabi/src) by extension 'ignore'
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(/home/samer/bjehrabi/src) by extension 'ignore_ament_install'
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(/home/samer/bjehrabi/src) by extensions ['colcon_pkg']
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(/home/samer/bjehrabi/src) by extension 'colcon_pkg'
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(/home/samer/bjehrabi/src) by extensions ['colcon_meta']
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(/home/samer/bjehrabi/src) by extension 'colcon_meta'
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(/home/samer/bjehrabi/src) by extensions ['ros']
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(/home/samer/bjehrabi/src) by extension 'ros'
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(/home/samer/bjehrabi/src) by extensions ['cmake', 'python']
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(/home/samer/bjehrabi/src) by extension 'cmake'
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(/home/samer/bjehrabi/src) by extension 'python'
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(/home/samer/bjehrabi/src) by extensions ['python_setup_py']
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(/home/samer/bjehrabi/src) by extension 'python_setup_py'
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(/home/samer/bjehrabi/src/botshop) by extensions ['ignore', 'ignore_ament_install']
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(/home/samer/bjehrabi/src/botshop) by extension 'ignore'
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(/home/samer/bjehrabi/src/botshop) by extension 'ignore_ament_install'
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(/home/samer/bjehrabi/src/botshop) by extensions ['colcon_pkg']
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(/home/samer/bjehrabi/src/botshop) by extension 'colcon_pkg'
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(/home/samer/bjehrabi/src/botshop) by extensions ['colcon_meta']
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(/home/samer/bjehrabi/src/botshop) by extension 'colcon_meta'
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(/home/samer/bjehrabi/src/botshop) by extensions ['ros']
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(/home/samer/bjehrabi/src/botshop) by extension 'ros'
+[0.258s] Level 1:colcon.colcon_core.package_identification:_identify(/home/samer/bjehrabi/src/botshop) by extensions ['cmake', 'python']
+[0.258s] Level 1:colcon.colcon_core.package_identification:_identify(/home/samer/bjehrabi/src/botshop) by extension 'cmake'
+[0.258s] Level 1:colcon.colcon_core.package_identification:_identify(/home/samer/bjehrabi/src/botshop) by extension 'python'
+[0.258s] Level 1:colcon.colcon_core.package_identification:_identify(/home/samer/bjehrabi/src/botshop) by extensions ['python_setup_py']
+[0.258s] Level 1:colcon.colcon_core.package_identification:_identify(/home/samer/bjehrabi/src/botshop) by extension 'python_setup_py'
+[0.258s] Level 1:colcon.colcon_core.package_identification:_identify(/home/samer/bjehrabi/src/botshop/log) by extensions ['ignore', 'ignore_ament_install']
+[0.258s] Level 1:colcon.colcon_core.package_identification:_identify(/home/samer/bjehrabi/src/botshop/log) by extension 'ignore'
+[0.258s] Level 1:colcon.colcon_core.package_identification:_identify(/home/samer/bjehrabi/src/botshop/log) ignored
+[0.258s] Level 1:colcon.colcon_core.package_identification:_identify(/home/samer/bjehrabi/src/botshop/mmp_description) by extensions ['ignore', 'ignore_ament_install']
+[0.258s] Level 1:colcon.colcon_core.package_identification:_identify(/home/samer/bjehrabi/src/botshop/mmp_description) by extension 'ignore'
+[0.258s] Level 1:colcon.colcon_core.package_identification:_identify(/home/samer/bjehrabi/src/botshop/mmp_description) by extension 'ignore_ament_install'
+[0.258s] Level 1:colcon.colcon_core.package_identification:_identify(/home/samer/bjehrabi/src/botshop/mmp_description) by extensions ['colcon_pkg']
+[0.258s] Level 1:colcon.colcon_core.package_identification:_identify(/home/samer/bjehrabi/src/botshop/mmp_description) by extension 'colcon_pkg'
+[0.258s] Level 1:colcon.colcon_core.package_identification:_identify(/home/samer/bjehrabi/src/botshop/mmp_description) by extensions ['colcon_meta']
+[0.258s] Level 1:colcon.colcon_core.package_identification:_identify(/home/samer/bjehrabi/src/botshop/mmp_description) by extension 'colcon_meta'
+[0.258s] Level 1:colcon.colcon_core.package_identification:_identify(/home/samer/bjehrabi/src/botshop/mmp_description) by extensions ['ros']
+[0.258s] Level 1:colcon.colcon_core.package_identification:_identify(/home/samer/bjehrabi/src/botshop/mmp_description) by extension 'ros'
+[0.261s] DEBUG:colcon.colcon_core.package_identification:Package '/home/samer/bjehrabi/src/botshop/mmp_description' with type 'ros.ament_cmake' and name 'mmp_description'
+[0.261s] Level 1:colcon.colcon_core.package_identification:_identify(/home/samer/bjehrabi/src/botshop/mmp_moveit_config) by extensions ['ignore', 'ignore_ament_install']
+[0.261s] Level 1:colcon.colcon_core.package_identification:_identify(/home/samer/bjehrabi/src/botshop/mmp_moveit_config) by extension 'ignore'
+[0.261s] Level 1:colcon.colcon_core.package_identification:_identify(/home/samer/bjehrabi/src/botshop/mmp_moveit_config) by extension 'ignore_ament_install'
+[0.261s] Level 1:colcon.colcon_core.package_identification:_identify(/home/samer/bjehrabi/src/botshop/mmp_moveit_config) by extensions ['colcon_pkg']
+[0.261s] Level 1:colcon.colcon_core.package_identification:_identify(/home/samer/bjehrabi/src/botshop/mmp_moveit_config) by extension 'colcon_pkg'
+[0.261s] Level 1:colcon.colcon_core.package_identification:_identify(/home/samer/bjehrabi/src/botshop/mmp_moveit_config) by extensions ['colcon_meta']
+[0.261s] Level 1:colcon.colcon_core.package_identification:_identify(/home/samer/bjehrabi/src/botshop/mmp_moveit_config) by extension 'colcon_meta'
+[0.261s] Level 1:colcon.colcon_core.package_identification:_identify(/home/samer/bjehrabi/src/botshop/mmp_moveit_config) by extensions ['ros']
+[0.261s] Level 1:colcon.colcon_core.package_identification:_identify(/home/samer/bjehrabi/src/botshop/mmp_moveit_config) by extension 'ros'
+[0.261s] DEBUG:colcon.colcon_core.package_identification:Package '/home/samer/bjehrabi/src/botshop/mmp_moveit_config' with type 'ros.ament_cmake' and name 'mmp_moveit_config'
+[0.262s] Level 1:colcon.colcon_core.package_identification:_identify(/home/samer/bjehrabi/src/log) by extensions ['ignore', 'ignore_ament_install']
+[0.262s] Level 1:colcon.colcon_core.package_identification:_identify(/home/samer/bjehrabi/src/log) by extension 'ignore'
+[0.262s] Level 1:colcon.colcon_core.package_identification:_identify(/home/samer/bjehrabi/src/log) ignored
+[0.262s] Level 1:colcon.colcon_core.package_identification:_identify(/home/samer/bjehrabi/src/third_party) by extensions ['ignore', 'ignore_ament_install']
+[0.262s] Level 1:colcon.colcon_core.package_identification:_identify(/home/samer/bjehrabi/src/third_party) by extension 'ignore'
+[0.262s] Level 1:colcon.colcon_core.package_identification:_identify(/home/samer/bjehrabi/src/third_party) by extension 'ignore_ament_install'
+[0.262s] Level 1:colcon.colcon_core.package_identification:_identify(/home/samer/bjehrabi/src/third_party) by extensions ['colcon_pkg']
+[0.262s] Level 1:colcon.colcon_core.package_identification:_identify(/home/samer/bjehrabi/src/third_party) by extension 'colcon_pkg'
+[0.262s] Level 1:colcon.colcon_core.package_identification:_identify(/home/samer/bjehrabi/src/third_party) by extensions ['colcon_meta']
+[0.262s] Level 1:colcon.colcon_core.package_identification:_identify(/home/samer/bjehrabi/src/third_party) by extension 'colcon_meta'
+[0.262s] Level 1:colcon.colcon_core.package_identification:_identify(/home/samer/bjehrabi/src/third_party) by extensions ['ros']
+[0.262s] Level 1:colcon.colcon_core.package_identification:_identify(/home/samer/bjehrabi/src/third_party) by extension 'ros'
+[0.262s] Level 1:colcon.colcon_core.package_identification:_identify(/home/samer/bjehrabi/src/third_party) by extensions ['cmake', 'python']
+[0.262s] Level 1:colcon.colcon_core.package_identification:_identify(/home/samer/bjehrabi/src/third_party) by extension 'cmake'
+[0.262s] Level 1:colcon.colcon_core.package_identification:_identify(/home/samer/bjehrabi/src/third_party) by extension 'python'
+[0.262s] Level 1:colcon.colcon_core.package_identification:_identify(/home/samer/bjehrabi/src/third_party) by extensions ['python_setup_py']
+[0.262s] Level 1:colcon.colcon_core.package_identification:_identify(/home/samer/bjehrabi/src/third_party) by extension 'python_setup_py'
+[0.262s] Level 1:colcon.colcon_core.package_identification:_identify(/home/samer/bjehrabi/src/third_party/realsense-ros) by extensions ['ignore', 'ignore_ament_install']
+[0.262s] Level 1:colcon.colcon_core.package_identification:_identify(/home/samer/bjehrabi/src/third_party/realsense-ros) by extension 'ignore'
+[0.262s] Level 1:colcon.colcon_core.package_identification:_identify(/home/samer/bjehrabi/src/third_party/realsense-ros) by extension 'ignore_ament_install'
+[0.262s] Level 1:colcon.colcon_core.package_identification:_identify(/home/samer/bjehrabi/src/third_party/realsense-ros) by extensions ['colcon_pkg']
+[0.262s] Level 1:colcon.colcon_core.package_identification:_identify(/home/samer/bjehrabi/src/third_party/realsense-ros) by extension 'colcon_pkg'
+[0.262s] Level 1:colcon.colcon_core.package_identification:_identify(/home/samer/bjehrabi/src/third_party/realsense-ros) by extensions ['colcon_meta']
+[0.262s] Level 1:colcon.colcon_core.package_identification:_identify(/home/samer/bjehrabi/src/third_party/realsense-ros) by extension 'colcon_meta'
+[0.262s] Level 1:colcon.colcon_core.package_identification:_identify(/home/samer/bjehrabi/src/third_party/realsense-ros) by extensions ['ros']
+[0.262s] Level 1:colcon.colcon_core.package_identification:_identify(/home/samer/bjehrabi/src/third_party/realsense-ros) by extension 'ros'
+[0.262s] Level 1:colcon.colcon_core.package_identification:_identify(/home/samer/bjehrabi/src/third_party/realsense-ros) by extensions ['cmake', 'python']
+[0.262s] Level 1:colcon.colcon_core.package_identification:_identify(/home/samer/bjehrabi/src/third_party/realsense-ros) by extension 'cmake'
+[0.262s] Level 1:colcon.colcon_core.package_identification:_identify(/home/samer/bjehrabi/src/third_party/realsense-ros) by extension 'python'
+[0.262s] Level 1:colcon.colcon_core.package_identification:_identify(/home/samer/bjehrabi/src/third_party/realsense-ros) by extensions ['python_setup_py']
+[0.262s] Level 1:colcon.colcon_core.package_identification:_identify(/home/samer/bjehrabi/src/third_party/realsense-ros) by extension 'python_setup_py'
+[0.263s] Level 1:colcon.colcon_core.package_identification:_identify(/home/samer/bjehrabi/src/third_party/realsense-ros/realsense2_camera) by extensions ['ignore', 'ignore_ament_install']
+[0.263s] Level 1:colcon.colcon_core.package_identification:_identify(/home/samer/bjehrabi/src/third_party/realsense-ros/realsense2_camera) by extension 'ignore'
+[0.263s] Level 1:colcon.colcon_core.package_identification:_identify(/home/samer/bjehrabi/src/third_party/realsense-ros/realsense2_camera) by extension 'ignore_ament_install'
+[0.263s] Level 1:colcon.colcon_core.package_identification:_identify(/home/samer/bjehrabi/src/third_party/realsense-ros/realsense2_camera) by extensions ['colcon_pkg']
+[0.263s] Level 1:colcon.colcon_core.package_identification:_identify(/home/samer/bjehrabi/src/third_party/realsense-ros/realsense2_camera) by extension 'colcon_pkg'
+[0.263s] Level 1:colcon.colcon_core.package_identification:_identify(/home/samer/bjehrabi/src/third_party/realsense-ros/realsense2_camera) by extensions ['colcon_meta']
+[0.263s] Level 1:colcon.colcon_core.package_identification:_identify(/home/samer/bjehrabi/src/third_party/realsense-ros/realsense2_camera) by extension 'colcon_meta'
+[0.263s] Level 1:colcon.colcon_core.package_identification:_identify(/home/samer/bjehrabi/src/third_party/realsense-ros/realsense2_camera) by extensions ['ros']
+[0.263s] Level 1:colcon.colcon_core.package_identification:_identify(/home/samer/bjehrabi/src/third_party/realsense-ros/realsense2_camera) by extension 'ros'
+[0.270s] DEBUG:colcon.colcon_core.package_identification:Package '/home/samer/bjehrabi/src/third_party/realsense-ros/realsense2_camera' with type 'ros.ament_cmake' and name 'realsense2_camera'
+[0.271s] Level 1:colcon.colcon_core.package_identification:_identify(/home/samer/bjehrabi/src/third_party/realsense-ros/realsense2_camera_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.271s] Level 1:colcon.colcon_core.package_identification:_identify(/home/samer/bjehrabi/src/third_party/realsense-ros/realsense2_camera_msgs) by extension 'ignore'
+[0.271s] Level 1:colcon.colcon_core.package_identification:_identify(/home/samer/bjehrabi/src/third_party/realsense-ros/realsense2_camera_msgs) by extension 'ignore_ament_install'
+[0.271s] Level 1:colcon.colcon_core.package_identification:_identify(/home/samer/bjehrabi/src/third_party/realsense-ros/realsense2_camera_msgs) by extensions ['colcon_pkg']
+[0.271s] Level 1:colcon.colcon_core.package_identification:_identify(/home/samer/bjehrabi/src/third_party/realsense-ros/realsense2_camera_msgs) by extension 'colcon_pkg'
+[0.271s] Level 1:colcon.colcon_core.package_identification:_identify(/home/samer/bjehrabi/src/third_party/realsense-ros/realsense2_camera_msgs) by extensions ['colcon_meta']
+[0.271s] Level 1:colcon.colcon_core.package_identification:_identify(/home/samer/bjehrabi/src/third_party/realsense-ros/realsense2_camera_msgs) by extension 'colcon_meta'
+[0.271s] Level 1:colcon.colcon_core.package_identification:_identify(/home/samer/bjehrabi/src/third_party/realsense-ros/realsense2_camera_msgs) by extensions ['ros']
+[0.271s] Level 1:colcon.colcon_core.package_identification:_identify(/home/samer/bjehrabi/src/third_party/realsense-ros/realsense2_camera_msgs) by extension 'ros'
+[0.271s] DEBUG:colcon.colcon_core.package_identification:Package '/home/samer/bjehrabi/src/third_party/realsense-ros/realsense2_camera_msgs' with type 'ros.ament_cmake' and name 'realsense2_camera_msgs'
+[0.271s] Level 1:colcon.colcon_core.package_identification:_identify(/home/samer/bjehrabi/src/third_party/realsense-ros/realsense2_description) by extensions ['ignore', 'ignore_ament_install']
+[0.271s] Level 1:colcon.colcon_core.package_identification:_identify(/home/samer/bjehrabi/src/third_party/realsense-ros/realsense2_description) by extension 'ignore'
+[0.271s] Level 1:colcon.colcon_core.package_identification:_identify(/home/samer/bjehrabi/src/third_party/realsense-ros/realsense2_description) by extension 'ignore_ament_install'
+[0.271s] Level 1:colcon.colcon_core.package_identification:_identify(/home/samer/bjehrabi/src/third_party/realsense-ros/realsense2_description) by extensions ['colcon_pkg']
+[0.272s] Level 1:colcon.colcon_core.package_identification:_identify(/home/samer/bjehrabi/src/third_party/realsense-ros/realsense2_description) by extension 'colcon_pkg'
+[0.272s] Level 1:colcon.colcon_core.package_identification:_identify(/home/samer/bjehrabi/src/third_party/realsense-ros/realsense2_description) by extensions ['colcon_meta']
+[0.272s] Level 1:colcon.colcon_core.package_identification:_identify(/home/samer/bjehrabi/src/third_party/realsense-ros/realsense2_description) by extension 'colcon_meta'
+[0.272s] Level 1:colcon.colcon_core.package_identification:_identify(/home/samer/bjehrabi/src/third_party/realsense-ros/realsense2_description) by extensions ['ros']
+[0.272s] Level 1:colcon.colcon_core.package_identification:_identify(/home/samer/bjehrabi/src/third_party/realsense-ros/realsense2_description) by extension 'ros'
+[0.272s] DEBUG:colcon.colcon_core.package_identification:Package '/home/samer/bjehrabi/src/third_party/realsense-ros/realsense2_description' with type 'ros.ament_cmake' and name 'realsense2_description'
+[0.272s] Level 1:colcon.colcon_core.package_identification:_identify(/home/samer/bjehrabi/src/third_party/realsense-ros/scripts) by extensions ['ignore', 'ignore_ament_install']
+[0.272s] Level 1:colcon.colcon_core.package_identification:_identify(/home/samer/bjehrabi/src/third_party/realsense-ros/scripts) by extension 'ignore'
+[0.272s] Level 1:colcon.colcon_core.package_identification:_identify(/home/samer/bjehrabi/src/third_party/realsense-ros/scripts) by extension 'ignore_ament_install'
+[0.272s] Level 1:colcon.colcon_core.package_identification:_identify(/home/samer/bjehrabi/src/third_party/realsense-ros/scripts) by extensions ['colcon_pkg']
+[0.272s] Level 1:colcon.colcon_core.package_identification:_identify(/home/samer/bjehrabi/src/third_party/realsense-ros/scripts) by extension 'colcon_pkg'
+[0.272s] Level 1:colcon.colcon_core.package_identification:_identify(/home/samer/bjehrabi/src/third_party/realsense-ros/scripts) by extensions ['colcon_meta']
+[0.272s] Level 1:colcon.colcon_core.package_identification:_identify(/home/samer/bjehrabi/src/third_party/realsense-ros/scripts) by extension 'colcon_meta'
+[0.272s] Level 1:colcon.colcon_core.package_identification:_identify(/home/samer/bjehrabi/src/third_party/realsense-ros/scripts) by extensions ['ros']
+[0.272s] Level 1:colcon.colcon_core.package_identification:_identify(/home/samer/bjehrabi/src/third_party/realsense-ros/scripts) by extension 'ros'
+[0.272s] Level 1:colcon.colcon_core.package_identification:_identify(/home/samer/bjehrabi/src/third_party/realsense-ros/scripts) by extensions ['cmake', 'python']
+[0.272s] Level 1:colcon.colcon_core.package_identification:_identify(/home/samer/bjehrabi/src/third_party/realsense-ros/scripts) by extension 'cmake'
+[0.272s] Level 1:colcon.colcon_core.package_identification:_identify(/home/samer/bjehrabi/src/third_party/realsense-ros/scripts) by extension 'python'
+[0.272s] Level 1:colcon.colcon_core.package_identification:_identify(/home/samer/bjehrabi/src/third_party/realsense-ros/scripts) by extensions ['python_setup_py']
+[0.272s] Level 1:colcon.colcon_core.package_identification:_identify(/home/samer/bjehrabi/src/third_party/realsense-ros/scripts) by extension 'python_setup_py'
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(/home/samer/bjehrabi/src/third_party/ridgeback) by extensions ['ignore', 'ignore_ament_install']
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(/home/samer/bjehrabi/src/third_party/ridgeback) by extension 'ignore'
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(/home/samer/bjehrabi/src/third_party/ridgeback) by extension 'ignore_ament_install'
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(/home/samer/bjehrabi/src/third_party/ridgeback) by extensions ['colcon_pkg']
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(/home/samer/bjehrabi/src/third_party/ridgeback) by extension 'colcon_pkg'
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(/home/samer/bjehrabi/src/third_party/ridgeback) by extensions ['colcon_meta']
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(/home/samer/bjehrabi/src/third_party/ridgeback) by extension 'colcon_meta'
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(/home/samer/bjehrabi/src/third_party/ridgeback) by extensions ['ros']
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(/home/samer/bjehrabi/src/third_party/ridgeback) by extension 'ros'
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(/home/samer/bjehrabi/src/third_party/ridgeback) by extensions ['cmake', 'python']
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(/home/samer/bjehrabi/src/third_party/ridgeback) by extension 'cmake'
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(/home/samer/bjehrabi/src/third_party/ridgeback) by extension 'python'
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(/home/samer/bjehrabi/src/third_party/ridgeback) by extensions ['python_setup_py']
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(/home/samer/bjehrabi/src/third_party/ridgeback) by extension 'python_setup_py'
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(/home/samer/bjehrabi/src/third_party/ridgeback/build) by extensions ['ignore', 'ignore_ament_install']
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(/home/samer/bjehrabi/src/third_party/ridgeback/build) by extension 'ignore'
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(/home/samer/bjehrabi/src/third_party/ridgeback/build) ignored
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(/home/samer/bjehrabi/src/third_party/ridgeback/install) by extensions ['ignore', 'ignore_ament_install']
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(/home/samer/bjehrabi/src/third_party/ridgeback/install) by extension 'ignore'
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(/home/samer/bjehrabi/src/third_party/ridgeback/install) ignored
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(/home/samer/bjehrabi/src/third_party/ridgeback/log) by extensions ['ignore', 'ignore_ament_install']
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(/home/samer/bjehrabi/src/third_party/ridgeback/log) by extension 'ignore'
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(/home/samer/bjehrabi/src/third_party/ridgeback/log) ignored
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(/home/samer/bjehrabi/src/third_party/ridgeback/src) by extensions ['ignore', 'ignore_ament_install']
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(/home/samer/bjehrabi/src/third_party/ridgeback/src) by extension 'ignore'
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(/home/samer/bjehrabi/src/third_party/ridgeback/src) by extension 'ignore_ament_install'
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(/home/samer/bjehrabi/src/third_party/ridgeback/src) by extensions ['colcon_pkg']
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(/home/samer/bjehrabi/src/third_party/ridgeback/src) by extension 'colcon_pkg'
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(/home/samer/bjehrabi/src/third_party/ridgeback/src) by extensions ['colcon_meta']
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(/home/samer/bjehrabi/src/third_party/ridgeback/src) by extension 'colcon_meta'
+[0.274s] Level 1:colcon.colcon_core.package_identification:_identify(/home/samer/bjehrabi/src/third_party/ridgeback/src) by extensions ['ros']
+[0.274s] Level 1:colcon.colcon_core.package_identification:_identify(/home/samer/bjehrabi/src/third_party/ridgeback/src) by extension 'ros'
+[0.274s] Level 1:colcon.colcon_core.package_identification:_identify(/home/samer/bjehrabi/src/third_party/ridgeback/src) by extensions ['cmake', 'python']
+[0.274s] Level 1:colcon.colcon_core.package_identification:_identify(/home/samer/bjehrabi/src/third_party/ridgeback/src) by extension 'cmake'
+[0.274s] Level 1:colcon.colcon_core.package_identification:_identify(/home/samer/bjehrabi/src/third_party/ridgeback/src) by extension 'python'
+[0.274s] Level 1:colcon.colcon_core.package_identification:_identify(/home/samer/bjehrabi/src/third_party/ridgeback/src) by extensions ['python_setup_py']
+[0.274s] Level 1:colcon.colcon_core.package_identification:_identify(/home/samer/bjehrabi/src/third_party/ridgeback/src) by extension 'python_setup_py'
+[0.274s] Level 1:colcon.colcon_core.package_identification:_identify(/home/samer/bjehrabi/src/third_party/ridgeback/src/ridgeback_description) by extensions ['ignore', 'ignore_ament_install']
+[0.274s] Level 1:colcon.colcon_core.package_identification:_identify(/home/samer/bjehrabi/src/third_party/ridgeback/src/ridgeback_description) by extension 'ignore'
+[0.274s] Level 1:colcon.colcon_core.package_identification:_identify(/home/samer/bjehrabi/src/third_party/ridgeback/src/ridgeback_description) by extension 'ignore_ament_install'
+[0.274s] Level 1:colcon.colcon_core.package_identification:_identify(/home/samer/bjehrabi/src/third_party/ridgeback/src/ridgeback_description) by extensions ['colcon_pkg']
+[0.274s] Level 1:colcon.colcon_core.package_identification:_identify(/home/samer/bjehrabi/src/third_party/ridgeback/src/ridgeback_description) by extension 'colcon_pkg'
+[0.274s] Level 1:colcon.colcon_core.package_identification:_identify(/home/samer/bjehrabi/src/third_party/ridgeback/src/ridgeback_description) by extensions ['colcon_meta']
+[0.274s] Level 1:colcon.colcon_core.package_identification:_identify(/home/samer/bjehrabi/src/third_party/ridgeback/src/ridgeback_description) by extension 'colcon_meta'
+[0.274s] Level 1:colcon.colcon_core.package_identification:_identify(/home/samer/bjehrabi/src/third_party/ridgeback/src/ridgeback_description) by extensions ['ros']
+[0.274s] Level 1:colcon.colcon_core.package_identification:_identify(/home/samer/bjehrabi/src/third_party/ridgeback/src/ridgeback_description) by extension 'ros'
+[0.274s] DEBUG:colcon.colcon_core.package_identification:Package '/home/samer/bjehrabi/src/third_party/ridgeback/src/ridgeback_description' with type 'ros.ament_cmake' and name 'ridgeback_description'
+[0.274s] Level 1:colcon.colcon_core.package_identification:_identify(/home/samer/bjehrabi/src/third_party/robotiq_85_gripper) by extensions ['ignore', 'ignore_ament_install']
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(/home/samer/bjehrabi/src/third_party/robotiq_85_gripper) by extension 'ignore'
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(/home/samer/bjehrabi/src/third_party/robotiq_85_gripper) by extension 'ignore_ament_install'
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(/home/samer/bjehrabi/src/third_party/robotiq_85_gripper) by extensions ['colcon_pkg']
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(/home/samer/bjehrabi/src/third_party/robotiq_85_gripper) by extension 'colcon_pkg'
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(/home/samer/bjehrabi/src/third_party/robotiq_85_gripper) by extensions ['colcon_meta']
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(/home/samer/bjehrabi/src/third_party/robotiq_85_gripper) by extension 'colcon_meta'
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(/home/samer/bjehrabi/src/third_party/robotiq_85_gripper) by extensions ['ros']
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(/home/samer/bjehrabi/src/third_party/robotiq_85_gripper) by extension 'ros'
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(/home/samer/bjehrabi/src/third_party/robotiq_85_gripper) by extensions ['cmake', 'python']
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(/home/samer/bjehrabi/src/third_party/robotiq_85_gripper) by extension 'cmake'
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(/home/samer/bjehrabi/src/third_party/robotiq_85_gripper) by extension 'python'
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(/home/samer/bjehrabi/src/third_party/robotiq_85_gripper) by extensions ['python_setup_py']
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(/home/samer/bjehrabi/src/third_party/robotiq_85_gripper) by extension 'python_setup_py'
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(/home/samer/bjehrabi/src/third_party/robotiq_85_gripper/robotiq_85_description) by extensions ['ignore', 'ignore_ament_install']
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(/home/samer/bjehrabi/src/third_party/robotiq_85_gripper/robotiq_85_description) by extension 'ignore'
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(/home/samer/bjehrabi/src/third_party/robotiq_85_gripper/robotiq_85_description) by extension 'ignore_ament_install'
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(/home/samer/bjehrabi/src/third_party/robotiq_85_gripper/robotiq_85_description) by extensions ['colcon_pkg']
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(/home/samer/bjehrabi/src/third_party/robotiq_85_gripper/robotiq_85_description) by extension 'colcon_pkg'
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(/home/samer/bjehrabi/src/third_party/robotiq_85_gripper/robotiq_85_description) by extensions ['colcon_meta']
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(/home/samer/bjehrabi/src/third_party/robotiq_85_gripper/robotiq_85_description) by extension 'colcon_meta'
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(/home/samer/bjehrabi/src/third_party/robotiq_85_gripper/robotiq_85_description) by extensions ['ros']
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(/home/samer/bjehrabi/src/third_party/robotiq_85_gripper/robotiq_85_description) by extension 'ros'
+[0.276s] DEBUG:colcon.colcon_core.package_identification:Package '/home/samer/bjehrabi/src/third_party/robotiq_85_gripper/robotiq_85_description' with type 'ros.ament_cmake' and name 'robotiq_85_description'
+[0.276s] Level 1:colcon.colcon_core.package_identification:_identify(/home/samer/bjehrabi/src/third_party/robotiq_85_gripper/robotiq_85_driver) by extensions ['ignore', 'ignore_ament_install']
+[0.276s] Level 1:colcon.colcon_core.package_identification:_identify(/home/samer/bjehrabi/src/third_party/robotiq_85_gripper/robotiq_85_driver) by extension 'ignore'
+[0.276s] Level 1:colcon.colcon_core.package_identification:_identify(/home/samer/bjehrabi/src/third_party/robotiq_85_gripper/robotiq_85_driver) by extension 'ignore_ament_install'
+[0.276s] Level 1:colcon.colcon_core.package_identification:_identify(/home/samer/bjehrabi/src/third_party/robotiq_85_gripper/robotiq_85_driver) by extensions ['colcon_pkg']
+[0.276s] Level 1:colcon.colcon_core.package_identification:_identify(/home/samer/bjehrabi/src/third_party/robotiq_85_gripper/robotiq_85_driver) by extension 'colcon_pkg'
+[0.276s] Level 1:colcon.colcon_core.package_identification:_identify(/home/samer/bjehrabi/src/third_party/robotiq_85_gripper/robotiq_85_driver) by extensions ['colcon_meta']
+[0.276s] Level 1:colcon.colcon_core.package_identification:_identify(/home/samer/bjehrabi/src/third_party/robotiq_85_gripper/robotiq_85_driver) by extension 'colcon_meta'
+[0.276s] Level 1:colcon.colcon_core.package_identification:_identify(/home/samer/bjehrabi/src/third_party/robotiq_85_gripper/robotiq_85_driver) by extensions ['ros']
+[0.276s] Level 1:colcon.colcon_core.package_identification:_identify(/home/samer/bjehrabi/src/third_party/robotiq_85_gripper/robotiq_85_driver) by extension 'ros'
+[0.276s] DEBUG:colcon.colcon_core.package_identification:Package '/home/samer/bjehrabi/src/third_party/robotiq_85_gripper/robotiq_85_driver' with type 'ros.ament_python' and name 'robotiq_85_driver'
+[0.276s] Level 1:colcon.colcon_core.package_identification:_identify(/home/samer/bjehrabi/src/third_party/robotiq_85_gripper/robotiq_85_gripper) by extensions ['ignore', 'ignore_ament_install']
+[0.276s] Level 1:colcon.colcon_core.package_identification:_identify(/home/samer/bjehrabi/src/third_party/robotiq_85_gripper/robotiq_85_gripper) by extension 'ignore'
+[0.277s] Level 1:colcon.colcon_core.package_identification:_identify(/home/samer/bjehrabi/src/third_party/robotiq_85_gripper/robotiq_85_gripper) by extension 'ignore_ament_install'
+[0.277s] Level 1:colcon.colcon_core.package_identification:_identify(/home/samer/bjehrabi/src/third_party/robotiq_85_gripper/robotiq_85_gripper) by extensions ['colcon_pkg']
+[0.277s] Level 1:colcon.colcon_core.package_identification:_identify(/home/samer/bjehrabi/src/third_party/robotiq_85_gripper/robotiq_85_gripper) by extension 'colcon_pkg'
+[0.277s] Level 1:colcon.colcon_core.package_identification:_identify(/home/samer/bjehrabi/src/third_party/robotiq_85_gripper/robotiq_85_gripper) by extensions ['colcon_meta']
+[0.277s] Level 1:colcon.colcon_core.package_identification:_identify(/home/samer/bjehrabi/src/third_party/robotiq_85_gripper/robotiq_85_gripper) by extension 'colcon_meta'
+[0.277s] Level 1:colcon.colcon_core.package_identification:_identify(/home/samer/bjehrabi/src/third_party/robotiq_85_gripper/robotiq_85_gripper) by extensions ['ros']
+[0.277s] Level 1:colcon.colcon_core.package_identification:_identify(/home/samer/bjehrabi/src/third_party/robotiq_85_gripper/robotiq_85_gripper) by extension 'ros'
+[0.277s] DEBUG:colcon.colcon_core.package_identification:Package '/home/samer/bjehrabi/src/third_party/robotiq_85_gripper/robotiq_85_gripper' with type 'ros.ament_cmake' and name 'robotiq_85_gripper'
+[0.277s] Level 1:colcon.colcon_core.package_identification:_identify(/home/samer/bjehrabi/src/third_party/robotiq_85_gripper/robotiq_85_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.277s] Level 1:colcon.colcon_core.package_identification:_identify(/home/samer/bjehrabi/src/third_party/robotiq_85_gripper/robotiq_85_msgs) by extension 'ignore'
+[0.277s] Level 1:colcon.colcon_core.package_identification:_identify(/home/samer/bjehrabi/src/third_party/robotiq_85_gripper/robotiq_85_msgs) by extension 'ignore_ament_install'
+[0.277s] Level 1:colcon.colcon_core.package_identification:_identify(/home/samer/bjehrabi/src/third_party/robotiq_85_gripper/robotiq_85_msgs) by extensions ['colcon_pkg']
+[0.277s] Level 1:colcon.colcon_core.package_identification:_identify(/home/samer/bjehrabi/src/third_party/robotiq_85_gripper/robotiq_85_msgs) by extension 'colcon_pkg'
+[0.277s] Level 1:colcon.colcon_core.package_identification:_identify(/home/samer/bjehrabi/src/third_party/robotiq_85_gripper/robotiq_85_msgs) by extensions ['colcon_meta']
+[0.277s] Level 1:colcon.colcon_core.package_identification:_identify(/home/samer/bjehrabi/src/third_party/robotiq_85_gripper/robotiq_85_msgs) by extension 'colcon_meta'
+[0.277s] Level 1:colcon.colcon_core.package_identification:_identify(/home/samer/bjehrabi/src/third_party/robotiq_85_gripper/robotiq_85_msgs) by extensions ['ros']
+[0.277s] Level 1:colcon.colcon_core.package_identification:_identify(/home/samer/bjehrabi/src/third_party/robotiq_85_gripper/robotiq_85_msgs) by extension 'ros'
+[0.277s] DEBUG:colcon.colcon_core.package_identification:Package '/home/samer/bjehrabi/src/third_party/robotiq_85_gripper/robotiq_85_msgs' with type 'ros.ament_cmake' and name 'robotiq_85_msgs'
+[0.277s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults

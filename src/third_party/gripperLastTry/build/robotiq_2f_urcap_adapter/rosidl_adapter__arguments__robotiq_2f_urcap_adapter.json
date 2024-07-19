@@ -1,0 +1,8 @@
+{
+  "package_name": "robotiq_2f_urcap_adapter",
+  "non_idl_tuples": [
+    "/home/samer/gripperLastTry/robotiq_2f_urcap_adapter:action/MoveGripper.action",
+    "/home/samer/gripperLastTry/robotiq_2f_urcap_adapter:action/GripperCommand.action",
+    "/home/samer/gripperLastTry/robotiq_2f_urcap_adapter:msg/GripperCommand.msg"
+  ]
+}

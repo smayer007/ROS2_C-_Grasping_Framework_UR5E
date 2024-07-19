@@ -1,0 +1,16 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from robotiq_2f_urcap_adapter/msg/GripperCommand.msg
+// generated code does not contain a copyright notice
+
+
+module robotiq_2f_urcap_adapter {
+  module msg {
+    struct GripperCommand {
+      double position;
+
+      double max_effort;
+
+      double max_speed;
+    };
+  };
+};

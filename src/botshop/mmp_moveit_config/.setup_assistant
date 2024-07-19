@@ -1,0 +1,25 @@
+moveit_setup_assistant_config:
+  urdf:
+    package: mmp_description
+    relative_path: urdf/ridgeback_ur.urdf
+  srdf:
+    relative_path: config/ridgeback.srdf
+  package_settings:
+    author_name: sameur
+    author_email: sameur.hedhili@insat.ucar.tn
+    generated_timestamp: 1712410348
+  control_xacro:
+    command:
+      - position
+    state:
+      - position
+      - velocity
+  modified_urdf:
+    xacros:
+      - control_xacro
+  control_xacro:
+    command:
+      - position
+    state:
+      - position
+      - velocity

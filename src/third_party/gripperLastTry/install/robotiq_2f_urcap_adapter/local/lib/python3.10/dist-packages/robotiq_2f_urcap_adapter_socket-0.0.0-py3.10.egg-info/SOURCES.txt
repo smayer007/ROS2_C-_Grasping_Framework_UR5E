@@ -1,0 +1,7 @@
+setup.py
+robotiq_2f_urcap_adapter_socket/__init__.py
+robotiq_2f_urcap_adapter_socket/robotiq_2f_socket_adapter.py
+robotiq_2f_urcap_adapter_socket.egg-info/PKG-INFO
+robotiq_2f_urcap_adapter_socket.egg-info/SOURCES.txt
+robotiq_2f_urcap_adapter_socket.egg-info/dependency_links.txt
+robotiq_2f_urcap_adapter_socket.egg-info/top_level.txt

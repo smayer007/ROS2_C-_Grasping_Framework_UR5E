@@ -1,0 +1,3 @@
+/home/samer/gripperLastTry/build/robotiq_2f_urcap_adapter/rosidl_adapter/robotiq_2f_urcap_adapter:action/MoveGripper.idl
+/home/samer/gripperLastTry/build/robotiq_2f_urcap_adapter/rosidl_adapter/robotiq_2f_urcap_adapter:action/GripperCommand.idl
+/home/samer/gripperLastTry/build/robotiq_2f_urcap_adapter/rosidl_adapter/robotiq_2f_urcap_adapter:msg/GripperCommand.idl

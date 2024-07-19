@@ -1,0 +1,55 @@
+// generated from rosidl_adapter/resource/action.idl.em
+// with input from robotiq_2f_urcap_adapter/action/GripperCommand.action
+// generated code does not contain a copyright notice
+
+#include "robotiq_2f_urcap_adapter/msg/GripperCommand.idl"
+
+module robotiq_2f_urcap_adapter {
+  module action {
+    struct GripperCommand_Goal {
+      robotiq_2f_urcap_adapter::msg::GripperCommand command;
+    };
+    struct GripperCommand_Result {
+      @verbatim (language="comment", text=
+        "The current gripper gap size (in meters)")
+      double position;
+
+      @verbatim (language="comment", text=
+        "The current effort exerted (in Newtons)")
+      double effort;
+
+      @verbatim (language="comment", text=
+        "The current speed used (in m/s)")
+      double speed;
+
+      @verbatim (language="comment", text=
+        "True iff the gripper is exerting max effort and not moving")
+      boolean stalled;
+
+      @verbatim (language="comment", text=
+        "True iff the gripper position has reached the commanded setpoint")
+      boolean reached_goal;
+    };
+    struct GripperCommand_Feedback {
+      @verbatim (language="comment", text=
+        "The current gripper gap size (in meters)")
+      double position;
+
+      @verbatim (language="comment", text=
+        "The current effort exerted (in Newtons)")
+      double effort;
+
+      @verbatim (language="comment", text=
+        "The current speed used (in m/s)")
+      double speed;
+
+      @verbatim (language="comment", text=
+        "True iff the gripper is exerting max effort and not moving")
+      boolean stalled;
+
+      @verbatim (language="comment", text=
+        "True iff the gripper position has reached the commanded setpoint")
+      boolean reached_goal;
+    };
+  };
+};
